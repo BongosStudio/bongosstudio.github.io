@@ -3,6 +3,14 @@ Slate Theme for GitHub Pages
 by Jason Costello, @jsncostello
 *******************************************************************************/
 
+/*
+*
+* https://coolors.co/4900dd-b81fc6-7838d8-3f72ff-4264ff
+* These are the colors that will be used for Welt's main design. What the assignment will be is unknown. Font colors will
+* just be a soft white.
+*
+*/
+
 @import url(github-light.css);
 
 /*******************************************************************************
@@ -50,10 +58,10 @@ Theme Styles
 
 body {
   box-sizing: border-box;
-  color:#373737;
-  background: #212121;
+  color:#EFEFEF;
+  background: #4900DD;
   font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: 'Arial', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -103,7 +111,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #3F72FF;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -121,7 +129,7 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #F2F2F2;
+  color: #4264FF;
   text-decoration: underline;
 }
 
